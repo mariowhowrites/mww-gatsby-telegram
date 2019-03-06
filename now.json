@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "sendMessage.js", "use": "@now/node" },
+    { "src": "AxiosClient.js", "use": "@now/node" }
+  ],
+  "env": {
+    "TELEGRAM_TOKEN": "@telegram-token-mww"
+  }
+}
